@@ -18,7 +18,7 @@ function App() {
       </Container>
 
       <Routes>
-        <Route exact path="/" element={<Create />} />
+        <Route exact path="/" element={<Users />} />
         <Route exact path="/create" element={<Create />} />
         <Route exact path="/read" element={<Users />} />
         <Route exact path="/edit" element={<Update />} />

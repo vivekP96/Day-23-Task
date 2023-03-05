@@ -6,7 +6,7 @@ function Menubar() {
   return (
     <>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="/">Create Data</Navbar.Brand>
+        <Navbar.Brand href="/create">Create Data</Navbar.Brand>
         <Nav className="me-auto">
           <Nav.Link href="/read">Read Data</Nav.Link>
         </Nav>
